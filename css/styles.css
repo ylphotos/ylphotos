@@ -1,0 +1,168 @@
+body {
+  color: #333;
+  background-repeat: no-repeat; 
+  background-position: 50% 0;
+  background-attachment: fixed;
+  background-color: #030202;
+  background-image: url(/images/background-image.jpg);
+}
+
+.wrapper {
+
+}
+
+.navbar {
+  font-family: 'Quicksand', cursive;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Quicksand', cursive;
+  font-weight: 700;
+}
+
+.label {
+  font-family: 'Quicksand', cursive;
+  font-weight: 700;
+  font-size: 1em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+p {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+}
+
+.list {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.overlay-home {
+
+  color: #333;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -khtml-border-radius: 10px;
+}
+
+.overlay {
+  background-color: #333;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ebebeb;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -khtml-border-radius: 10px;
+}
+
+.btn-hp {
+  background-color: #E2AF34;
+  border-color: #E2AF34;
+}
+
+.btn-hp:hover {
+  background-color: #E2AF34;
+  border-color: #E2AF34;
+  color: #333;
+  font-weight: bold;
+}
+
+.btn-second {
+  background-color: #8D8989;
+  border-color: #8D8989;
+  color: #FFFFFF;
+}
+
+.btn-second:hover {
+  background-color: #8D8989;
+  border-color: #8D8989;
+  color: #333;
+  font-weight: bold;
+}
+
+.ctas {
+  text-align: center;
+  width: 100%;
+}
+
+.intro {
+  margin-bottom: 2%;
+}
+
+.intro-blurb {
+  font-size: 2.2em;
+  line-height: 1.1em;
+  padding: 2%;
+}
+
+.intro-subhead {
+  font-size: 1.4em;
+  line-height: 1em;
+  padding: 2%;
+}
+
+a {
+  color: #E2AF34;
+}
+
+a:hover {
+  color: #E2AF34;
+}
+
+.header {
+  margin-bottom: 2%;
+}
+
+#footer {
+	padding: 1%;
+	font-size: 1em;
+	text-align: right;
+  min-height: 40px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: #ffffff;
+  border-top: 2px #8D8989 solid;
+}
+
+blockquote {
+  margin-top: 3%;
+  background-color: #333333;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -khtml-border-radius: 10px;
+  border-left: none;
+  padding: 1%;
+}
+
+blockquote p {
+  font-size: 1.1em;
+  line-height: 2em;
+}
+
+
+#footer h2 {
+  color: #8D8989; 
+}
+
+#footer p {
+  color: #8D8989; 
+}
+
+.label {
+  background-color: #E2AF34;
+}
+
+.jumbotron {
+  width: 30%;
+  float: right;
+  text-align: center;
+}
