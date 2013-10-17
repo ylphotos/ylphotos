@@ -157,6 +157,10 @@ blockquote p {
   color: #8D8989; 
 }
 
+.footer-logo {
+  text-align: left;
+}
+
 .label {
   background-color: #E2AF34;
 }
