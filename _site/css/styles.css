@@ -66,6 +66,7 @@ p {
 .btn-YLP {
   background-color: #E2AF34;
   border-color: #E2AF34;
+  color: #fff;
 }
 
 .btn-YLP:hover {
@@ -182,4 +183,15 @@ blockquote p {
   min-height: 16.428571429px;
   padding: 15px;
   border-bottom: none;
+}
+
+.blueimp-gallery > .description {
+  position: absolute;
+  top: 30px;
+  left: 15px;
+  color: #fff;
+  display: none;
+}
+.blueimp-gallery-controls > .description {
+  display: block;
 }
