@@ -19,6 +19,9 @@
     <![endif]-->
   <link href="css/styles.css" rel="stylesheet">
   <link href="lib/fancybox/jquery.fancybox.css" rel="stylesheet">
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
+  <link rel="stylesheet" href="css/bootstrap-image-gallery.min.css">
   
   <meta property="og:title" content="Yael Levey Photography: Beautiful & bold travel-inspired photography"/>
   <meta property="og:type" content="website"/>
@@ -50,123 +53,154 @@
   <div class="wrapper">
     <div class="container">
     
-      <div class="row prints">
+      <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+<div id="blueimp-gallery" class="blueimp-gallery">
+    <!-- The container for the modal slides -->
+    <div class="slides"></div>
+    <!-- Controls for the borderless lightbox -->
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+    <!-- The modal dialog, which will be used to wrap the lightbox content -->
+    <div class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title"></h4>
+                </div>
+                <div class="modal-body next"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default pull-left prev">
+                        <i class="glyphicon glyphicon-chevron-left"></i>
+                        Previous
+                    </button>
+                    <button type="button" class="btn btn-primary next">
+                        Next
+                        <i class="glyphicon glyphicon-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="links">
+
+<div class="row prints">
   <div class="col-md-4">
-    <div class="thumbnail">
-      <img src="http://farm8.staticflickr.com/7389/10404414563_0914b69e0e.jpg" width="299" height="200" alt="Ballooning">
+    <div class="thumbnail">    
       <div class="caption">
+        <a href="http://farm3.staticflickr.com/2843/10406026526_4cd1b56391.jpg" title="Ballooning" data-gallery>
+          <img src="http://farm8.staticflickr.com/7389/10404414563_0914b69e0e.jpg" alt="Ballooning">
+        </a>
         <h3>Ballooning</h3>
         <p>from $18.00</p>
         <p><a href="#" class="btn btn-primary btn-YLP">Find out more</a></p>
       </div>
-    </div>
-  </div>
-  
+   </div>
+  </div>  
   <div class="col-md-4">
-    <div class="thumbnail">
-      <img src="http://farm6.staticflickr.com/5490/10404414523_745ea3065d.jpg" width="267" height="200" alt="Clearing">
-      <div class="caption">
+    <div class="thumbnail">    
+      <div class="caption">  
+        <a href="http://farm6.staticflickr.com/5547/10406009404_c197c2221b.jpg" title="Clearing" data-gallery>
+            <img src="http://farm6.staticflickr.com/5490/10404414523_745ea3065d.jpg" alt="Clearing">
+        </a> 
         <h3>Clearing</h3>
         <p>from $18.00</p>
         <p><a href="#" class="btn btn-primary btn-YLP">Find out more</a></p>
       </div>
-    </div>
+   </div>
   </div>
-  
   <div class="col-md-4">
-    <div class="thumbnail">
-      <img src="http://farm4.staticflickr.com/3769/10404249505_d767f7c420.jpg" width="267" height="200" alt="Sky/Sea">
-      <div class="caption">
+    <div class="thumbnail">    
+      <div class="caption">              
+        <a href="http://farm6.staticflickr.com/5510/10406026066_7f95a075ee.jpg" title="Sky/Sea" data-gallery>
+            <img src="http://farm4.staticflickr.com/3769/10404249505_d767f7c420.jpg" alt="Sky/Sea">
+        </a>
         <h3>Sky/Sea</h3>
         <p>from $18.00</p>
         <p><a href="#" class="btn btn-primary btn-YLP">Find out more</a></p>
       </div>
-    </div>
-  </div>
-  
+   </div>
+  </div>  
   <div class="col-md-4">
-    <div class="thumbnail">
-      <img src="http://farm3.staticflickr.com/2814/10404249395_9e4cae5bc7.jpg" alt="Lights">
-      <div class="caption">
+    <div class="thumbnail">    
+      <div class="caption">          
+        <a href="http://farm4.staticflickr.com/3678/10406009004_5c625e2028.jpg" title="Lights" data-gallery>
+            <img src="http://farm3.staticflickr.com/2814/10404249395_9e4cae5bc7.jpg" alt="Lights">
+        </a>
         <h3>Lights</h3>
         <p>from $18.00</p>
         <p><a href="#" class="btn btn-primary btn-YLP">Find out more</a></p>
       </div>
-    </div>
-  </div>
-  
+   </div>
+  </div>  
   <div class="col-md-4">
-    <div class="thumbnail">
-      <img src="http://farm8.staticflickr.com/7343/10404255766_d808d1902d.jpg" width="299" height="200" alt="Silhouettes on the beach">      <div class="caption">
+    <div class="thumbnail">    
+      <div class="caption">          
+        <a href="http://farm6.staticflickr.com/5538/10406019875_8424fbee11.jpg" title="Silhouettes" data-gallery>
+            <img src="http://farm8.staticflickr.com/7343/10404255766_d808d1902d.jpg" alt="Silhouettes">
+        </a>
         <h3>Silhouettes</h3>
         <p>from $18.00</p>
         <p><a href="#" class="btn btn-primary btn-YLP">Find out more</a></p>
       </div>
-    </div>
-  </div>
-  
+   </div>
+  </div>   
   <div class="col-md-4">
-    <div class="thumbnail">
-      <img src="http://farm6.staticflickr.com/5516/10404249545_7efb481042.jpg" width="299" height="200" alt="Sway">
-      <div class="caption">
+    <div class="thumbnail">    
+      <div class="caption">         
+        <a href="http://farm4.staticflickr.com/3682/10406009134_3b666324ff.jpg" title="Sway" data-gallery>
+            <img src="http://farm6.staticflickr.com/5516/10404249545_7efb481042.jpg" alt="Sway">
+        </a>
         <h3>Sway</h3>
         <p>from $18.00</p>
         <p><a href="#" class="btn btn-primary btn-YLP">Find out more</a></p>
       </div>
-    </div>
-  </div>
-  
+   </div>
+  </div>  
   <div class="col-md-4">
-    <div class="thumbnail">
-      <img src="http://farm3.staticflickr.com/2810/10404249465_0124b7f3e5.jpg" width="301" height="200" alt="Sunset">
-      <div class="caption">
+    <div class="thumbnail">    
+      <div class="caption">          
+        <a href="http://farm8.staticflickr.com/7425/10406019935_1def1e0c09.jpg" title="Sunset" data-gallery>
+            <img src="http://farm3.staticflickr.com/2810/10404249465_0124b7f3e5.jpg" alt="Sunset">
+        </a>
         <h3>Sunset</h3>
         <p>from $18.00</p>
         <p><a href="#" class="btn btn-primary btn-YLP">Find out more</a></p>
       </div>
-    </div>
+   </div>
   </div>  
-  
   <div class="col-md-4">
-    <div class="thumbnail">
-      <img src="http://farm6.staticflickr.com/5543/10404240054_6261498220.jpg" width="300" height="200" alt="Lighthouse">
-      <div class="caption">
+    <div class="thumbnail">    
+      <div class="caption">          
+        <a href="http://farm6.staticflickr.com/5532/10406009324_4cd1b56391.jpg" title="Lighthouse" data-gallery>
+            <img src="http://farm6.staticflickr.com/5543/10404240054_6261498220.jpg" alt="Lighthouse">
+        </a>
         <h3>Lighthouse</h3>
         <p>from $18.00</p>
         <p><a href="#" class="btn btn-primary btn-YLP">Find out more</a></p>
       </div>
-    </div>
-  </div>
-  
+   </div>
+  </div> 
   <div class="col-md-4">
-    <div class="thumbnail">
-      <img src="http://farm8.staticflickr.com/7345/10404249655_7512bf6565.jpg" width="300" height="199" alt="Slabs">
-      <div class="caption">
+    <div class="thumbnail">    
+      <div class="caption">           
+        <a href="http://farm4.staticflickr.com/3747/10406026506_6a4dbf2df0.jpg" title="Slabs" data-gallery>
+            <img src="http://farm8.staticflickr.com/7345/10404249655_7512bf6565.jpg" alt="Slabs">
+        </a>
         <h3>Slabs</h3>
         <p>from $18.00</p>
         <p><a href="#" class="btn btn-primary btn-YLP">Find out more</a></p>
       </div>
-    </div>
-  </div>
-  
-<!--
-  <div class="col-md-4">
-    <div class="thumbnail">
-      <img src="http://farm3.staticflickr.com/2850/10404414443_57a824183b.jpg" width="299" height="200" alt="Tree in fog">
-      <div class="caption">
-        <h3>Tree in Fog</h3>
-        <p>from $18.00</p>
-        <p><a href="#" class="btn btn-primary btn-YLP">Find out more</a></p>
-      </div>
-    </div>
-  </div>
--->
-  
-
-  
+   </div>
+  </div>        
 </div>
-
-
+</div>
       
     </div>
   </div>
@@ -193,6 +227,9 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
   <script src="lib/fancybox/jquery.fancybox.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="http://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+  <script src="js/bootstrap-image-gallery.min.js"></script>
   
   <script type="text/javascript">
     $('#navbar').scrollspy()
