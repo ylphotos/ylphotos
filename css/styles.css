@@ -169,10 +169,15 @@ blockquote p {
   width: 30%;
   float: right;
   text-align: center;
+  margin-top: 7%;
 }
 
 .prints {
-  margin-top: 10%;
+  margin-top: 7%;
+}
+
+.well {
+  margin-top: 7%;
 }
 
 .thumbnail {
