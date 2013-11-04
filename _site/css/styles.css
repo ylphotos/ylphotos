@@ -205,3 +205,8 @@ blockquote p {
 .about-img {
   text-align: center;
 }
+
+.link {
+  font-weight: bold;
+  font-size: 1.5em;
+}
