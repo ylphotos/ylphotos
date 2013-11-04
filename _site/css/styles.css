@@ -194,7 +194,7 @@ blockquote p {
   position: absolute;
   top: 30px;
   left: 15px;
-  color: red;
+  color: #fff;
   display: none;
 }
 
