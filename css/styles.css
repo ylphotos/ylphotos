@@ -208,5 +208,12 @@ blockquote p {
 
 .link {
   font-weight: bold;
+}
+
+.modal-footer p {
+  padding-right: 30%;
+}
+
+.modal-footer a {
   font-size: 1.5em;
 }
