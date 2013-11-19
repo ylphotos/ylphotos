@@ -3,8 +3,19 @@ body {
   background-repeat: no-repeat; 
   background-position: 50% 0;
   background-attachment: fixed;
-  background-color: #030202;
+  background-color: #2B7BBA;
   background-image: url(/images/background-image.jpg);
+}
+
+/* Monitors ranging from 1367px - 1920px */
+@media (min-width:1367px) and (max-width:1920px){
+body {
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+  background-color: #2B7BBA;
+  background: url(/images/background-image-1920.jpg)
+  background-size:100% auto;
+  }
 }
 
 .wrapper {
