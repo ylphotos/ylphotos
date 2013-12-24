@@ -255,3 +255,7 @@ blockquote p {
   font-weight: bold;
   font-size: 1.2em;
 }
+
+.facebook {
+	padding: 10%;
+}
